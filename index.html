@@ -8,10 +8,11 @@
     </head>
 
     <body>
+        <!-- Navbar section -->
         <header>
             <nav class="navbar">    
                 <ul id="navlist">
-                    <li class="navbar-li" id="navbar-li-fixed">Nico Fernandez Baigun</li>
+                    <li class="navbar-li" id="navbar-li-fixed"><a href="#header">Nicolas Fernandez Baigun</a></li>
                     
                     <span id="toggle-nav" onclick="toggleNav()">
                         <div id="hamburger-icon">
@@ -23,26 +24,183 @@
 
                     <div class="navbar-collapse" id="collapsible-navbar">
                         <li class="placeholder"></li>
-                        <li class="navbar-li-collapse"><a href="#">About</a></li>
-                        <li class="navbar-li-collapse"><a href="#">Skills</a></li>
+                        <li class="navbar-li-collapse"><a href="#about">About</a></li>
+                        <li class="navbar-li-collapse"><a href="#skills">Skills</a></li>
                         <li class="navbar-li-collapse"><a href="#">Projects</a></li>
+                        <li class="navbar-li-collapse"><a href="#">Experience</a></li>
                         <li class="navbar-li-collapse"><a href="#">Contact</a></li>
                         <li class="navbar-li-collapse"><a href="#">Resume</a></li>
                     </div>
                 </ul>
             </nav>
         </header>
+        
+        <!-- Banner section-->
+        <article class="articles" id="header">
+            <div id="profile-pic"></div>
+            <h1>Nicolas Fernandez Baigun</h1>
+            <p>Computer Science + Statistics @ Brown University</p>
+        </article>
+
+        <!-- About section -->
+        <article class="articles" id="about">
+            <ul id="about-me">
+                <li id="about-me-table">
+                    <table id="basic-info">
+                        <tr>
+                            <th class="basic-info-header">Preferred Name</th>
+                            <td class="basic-info-data">Nico Fernandez Baigun</td>
+                        </tr>
+                        <tr>
+                            <th class="basic-info-header">Pronouns</th>
+                            <td class="basic-info-data">he/him</td>
+                        </tr>
+                        <tr>
+                            <th class="basic-info-header">Age</th>
+                            <td class="basic-info-data">18</td>
+                        </tr>
+                        <tr>
+                            <th class="basic-info-header" id="basic-info-header-bot">Hometown</th>
+                            <td class="basic-info-data" id="basic-info-data-bot">Weston, FL</td>
+                        </tr>
+                    </table>
+                    
+                    <div id="icon-links">
+                        <div id="icon-link-left"><a href="https://www.linkedin.com/in/nicofb/" target=”_blank”><img src="images/linkedin-logo.png" alt="LinkedIn" style="width:50px;height:50px"></a></div>
+                        <div id="icon-link-right"><a href="https://github.com/nico-fb" target=”_blank”><img src="images/github-logo.png" alt="GitHub" style="width:50px;height:50px"></a></dic>
+                    </div>
+                </li>
+                
+                <li id="about-me-p">
+                    <p class="about-me-info">
+                        I am a rising sophomore at Brown University planning to major in Computer Science and Statistics. I'm looking to gain experience coding in different languages, develop skills to analyze big data, and seek opportunities to apply my analytical and critical thinking skills.
+
+                        <br><br>
+
+                        In my spare time, I enjoy making music (having played alto saxophone for 8+ years), working on puzzle hunts, and learning in general. Being from Argentina and having the opportunity to live in Spain, Taiwan, and the United States have also helped me be more culturally diverse and influenced how I live.
+                    </p>
+                </li>
+            </ul>
+        </article>
+
+        <!-- Skills section -->
+        <article class="articles" id="skills">
+
+            <h1 class="skills-title" id="skills-languages">Languages</h1>
+
+            <div class="skills-row">
+                <div class="skills-column">
+                  <div class="skills-card skills-card-language">
+                    <h1 class="skills-card-language-name">Java</h1>
+                    <div class="skills-card-language-rating" id="skills-card-language-rating-eight">
+                        <h1>8/10</h1>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="skills-column">
+                  <div class="skills-card skills-card-language">
+                    <h1 class="skills-card-language-name">Python</h1>
+                    <div class="skills-card-language-rating" id="skills-card-language-rating-seven">
+                        <h1>7/10</h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="skills-column">
+                  <div class="skills-card skills-card-language">
+                    <h1 class="skills-card-language-name">HTML/CSS</h1>
+                    <div class="skills-card-language-rating" id="skills-card-language-rating-four">
+                        <h1>4/10</h1>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-column">
+                    <div class="skills-card skills-card-language">
+                      <h1 class="skills-card-language-name">Javascript</h1>
+                      <div class="skills-card-language-rating" id="skills-card-language-rating-four">
+                          <h1>4/10</h1>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <h1 class="skills-title" id="skills-tech">Technologies</h1>
+
+            <div class="skills-row">
+                <div class="skills-column">
+                  <div class="skills-card skills-card-tech">
+                    <h1 class="skills-card-tech-name">VSCode</h1>
+                  </div>
+                </div>
+              
+                <div class="skills-column">
+                  <div class="skills-card skills-card-tech">
+                    <h1 class="skills-card-tech-name">IntelliJ</h1>
+                  </div>
+                </div>
+                
+                <div class="skills-column">
+                  <div class="skills-card skills-card-tech">
+                    <h1 class="skills-card-tech-name">GitHub</h1>
+                  </div>
+                </div>
+
+            </div>
+        </article>
+
+        <!-- Projects section -->
+        <article class="articles" id="projects">
+
+            <h1 class="projects-title">Projects</h1>
+
+            <div class="projects-row">
+
+                <div class="projects-column">
+                  <div class="projects-card">
+                    <h1 class="projects-card-title">Prj 1</h1>
+                    <p class="projects-card-description">description</p>
+                    <div class="popup?">
+                        <!-- content of popup -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="projects-column">
+                    <div class="projects-card">
+                      <h1 class="projects-card-title">Prj 2</h1>
+                      <p class="projects-card-description">description</p>
+                      <div class="popup?">
+                          <!-- content of popup -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="projects-column">
+                    <div class="projects-card">
+                      <h1 class="projects-card-title">Prj 3</h1>
+                      <p class="projects-card-description">description</p>
+                      <div class="popup?">
+                          <!-- content of popup -->
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+        </article>
+
         <section>
             <h1>nico</h1>
 
-            <p>I am also Nico</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione perferendis nam! Impedit, omnis iusto? Vel soluta repellat eius rerum assumenda modi illo tempora quae inventore delectus at sit, quisquam aut placeat consequuntur ipsum iusto mollitia. Velit odio vel, molestias consequatur totam accusamus sit neque est exercitationem architecto itaque facilis iste perspiciatis praesentium dolores facere similique sequi voluptates, provident eligendi. Vero sed amet exercitationem. Consequuntur, incidunt architecto tempore expedita ut repellat sit corporis, deleniti fugit reiciendis dignissimos facere blanditiis ad accusantium est provident saepe aperiam! Quam rem deserunt, ratione nihil, quibusdam, provident quo dicta praesentium rerum doloremque vel voluptas laborum. Eaque voluptatibus consequatur maiores laborum repellat delectus amet maxime voluptas, dignissimos sequi earum nam officiis vel qui error deleniti neque excepturi ex magnam, aspernatur veniam esse doloremque corrupti! Odio, eos illo? Quisquam illum eveniet assumenda, tempora non et error laborum impedit quasi omnis ratione maxime voluptatem velit tenetur accusantium odit dolore vitae totam veniam. Suscipit, quis. Enim quasi eveniet aliquam corporis commodi, odio aut officiis exercitationem accusamus, placeat ad, voluptates sapiente! Tenetur porro accusantium eos omnis quasi officiis odio non culpa ipsum vitae, tempore natus voluptatem aliquid voluptatibus officia excepturi aut consequuntur ipsam repellendus. Doloribus non harum unde laboriosam vitae.</p>
 
             <a href="https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/62455-shout-factory1-869b74b647b88045caac956956bd1ff8.jpg"
             target="_blank">Click me for virus</a>
             <br>
             
-            <button>BOOM</button>
+            <button id="boom">BOOM</button>
             <br><br><br>
 
             <form>

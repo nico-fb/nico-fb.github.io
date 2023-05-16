@@ -18,7 +18,7 @@
 
         let navElems = document.getElementsByClassName("navbar-li-collapse");
 
-        if (window.innerWidth > 750){
+        if (window.innerWidth > 1000){
             for (var i=0;i<navElems.length;i+=1){
                 navElems[i].style.display = "block";
             }
