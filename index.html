@@ -2,12 +2,12 @@
 
 <html>
     <head>
-        <title>Nico Fernandez Baigun</title>
+        <title>Nicolas Fernandez Baigun</title>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
     </head>
 
-    <body>
+    <body class="body">
         <!-- Navbar section -->
         <header>
             <nav class="navbar">    
@@ -26,9 +26,9 @@
                         <li class="placeholder"></li>
                         <li class="navbar-li-collapse"><a href="#about">About</a></li>
                         <li class="navbar-li-collapse"><a href="#skills">Skills</a></li>
-                        <li class="navbar-li-collapse"><a href="#">Projects</a></li>
-                        <li class="navbar-li-collapse"><a href="#">Experience</a></li>
-                        <li class="navbar-li-collapse"><a href="#">Contact</a></li>
+                        <li class="navbar-li-collapse"><a href="#projects">Projects</a></li>
+                        <li class="navbar-li-collapse"><a href="#experience">Experience</a></li>
+                        <li class="navbar-li-collapse"><a href="#contact">Contact</a></li>
                         <li class="navbar-li-collapse"><a href="#">Resume</a></li>
                     </div>
                 </ul>
@@ -57,7 +57,7 @@
                         </tr>
                         <tr>
                             <th class="basic-info-header">Age</th>
-                            <td class="basic-info-data">18</td>
+                            <td class="basic-info-data">19</td>
                         </tr>
                         <tr>
                             <th class="basic-info-header" id="basic-info-header-bot">Hometown</th>
@@ -67,17 +67,17 @@
                     
                     <div id="icon-links">
                         <div id="icon-link-left"><a href="https://www.linkedin.com/in/nicofb/" target=”_blank”><img src="images/linkedin-logo.png" alt="LinkedIn" style="width:50px;height:50px"></a></div>
-                        <div id="icon-link-right"><a href="https://github.com/nico-fb" target=”_blank”><img src="images/github-logo.png" alt="GitHub" style="width:50px;height:50px"></a></dic>
+                        <div id="icon-link-right"><a href="https://github.com/nico-fb" target=”_blank”><img src="images/github-logo.png" alt="GitHub" style="width:50px;height:50px"></a></div>
                     </div>
                 </li>
                 
                 <li id="about-me-p">
                     <p class="about-me-info">
-                        I am a rising sophomore at Brown University planning to major in Computer Science and Statistics. I'm looking to gain experience coding in different languages, develop skills to analyze big data, and seek opportunities to apply my analytical and critical thinking skills.
+                        I am a sophomore at Brown University planning to major in Computer Science and Statistics. I'm looking to gain experience coding in different languages, develop skills to analyze big data, and seek opportunities to apply my analytical and critical thinking skills.
 
                         <br><br>
 
-                        In my spare time, I enjoy making music (having played alto saxophone for 8+ years), working on puzzle hunts, and learning in general. Being from Argentina and having the opportunity to live in Spain, Taiwan, and the United States have also helped me be more culturally diverse and influenced how I live.
+                        In my spare time, I enjoy making music (having played alto saxophone for 8+ years), working on puzzle hunts, and learning in general. Being from Argentina and having the opportunity to live in Spain, Taiwan, and the United States has also helped me be more culturally diverse and influenced how I live.
                     </p>
                 </li>
             </ul>
@@ -92,37 +92,43 @@
                 <div class="skills-column">
                   <div class="skills-card skills-card-language">
                     <h1 class="skills-card-language-name">Java</h1>
-                    <div class="skills-card-language-rating" id="skills-card-language-rating-eight">
-                        <h1>8/10</h1>
-                    </div>
                   </div>
                 </div>
               
                 <div class="skills-column">
                   <div class="skills-card skills-card-language">
                     <h1 class="skills-card-language-name">Python</h1>
-                    <div class="skills-card-language-rating" id="skills-card-language-rating-seven">
-                        <h1>7/10</h1>
-                    </div>
                   </div>
                 </div>
                 
                 <div class="skills-column">
                   <div class="skills-card skills-card-language">
                     <h1 class="skills-card-language-name">HTML/CSS</h1>
-                    <div class="skills-card-language-rating" id="skills-card-language-rating-four">
-                        <h1>4/10</h1>
-                    </div>
                   </div>
                 </div>
 
                 <div class="skills-column">
                     <div class="skills-card skills-card-language">
                       <h1 class="skills-card-language-name">Javascript</h1>
-                      <div class="skills-card-language-rating" id="skills-card-language-rating-four">
-                          <h1>4/10</h1>
-                      </div>
                     </div>
+                </div>
+
+                <div class="skills-column">
+                  <div class="skills-card skills-card-language">
+                    <h1 class="skills-card-language-name">C#</h1>
+                  </div>
+                </div>
+
+                <div class="skills-column">
+                  <div class="skills-card skills-card-language">
+                    <h1 class="skills-card-language-name">Dart</h1>
+                  </div>
+                </div>
+
+                <div class="skills-column">
+                  <div class="skills-card skills-card-language">
+                    <h1 class="skills-card-language-name">R</h1>
+                  </div>
                 </div>
 
             </div>
@@ -148,65 +154,317 @@
                   </div>
                 </div>
 
+                <div class="skills-column">
+                  <div class="skills-card skills-card-tech">
+                    <h1 class="skills-card-tech-name">GitPod</h1>
+                  </div>
+                </div>
+
+                <div class="skills-column">
+                  <div class="skills-card skills-card-tech">
+                    <h1 class="skills-card-tech-name">APIs</h1>
+                  </div>
+                </div>
+
+                <div class="skills-column">
+                  <div class="skills-card skills-card-tech">
+                    <h1 class="skills-card-tech-name">Unity</h1>
+                  </div>
+                </div>
+
+                <div class="skills-column">
+                  <div class="skills-card skills-card-tech">
+                    <h1 class="skills-card-tech-name">Flutter</h1>
+                  </div>
+                </div>
+
             </div>
+
         </article>
 
         <!-- Projects section -->
+        <div class="popup-background"></div> 
         <article class="articles" id="projects">
 
             <h1 class="projects-title">Projects</h1>
 
             <div class="projects-row">
 
+              <!-- Project 8 -->
+              <div class="projects-column">
+                <div class="projects-card" id="projects-card-8" onclick="toggleProjectsPopup(8)">
+                  <h1 class="projects-card-title">PacMan's Parallel Odyssey</h1>
+                  <p class="projects-card-description">A 3D POV Game of PacMan</p>
+                </div>
+              </div>
+              <div class="projects-popup">
+                <!-- content of popup -->
+                <img id="projects-popup-close-img" src="images/close-button.png" alt="Close Button" onclick="toggleProjectsPopup(8)">
+                <h1>PacMan's Parallel Odyssey</h1>
+                <h2>A 3D POV Game of PacMan</h2>
+                <img src="images/projects/8/1.png" alt="Example 1" class="projects-popup-example-images">
+                <img src="images/projects/8/2.png" alt="Example 2" class="projects-popup-example-images">
+                <p>I made this game in Unity. It is essentially the original PacMan game, but you are playing it in 3D from PacMan's
+                  Point of View. To make it somewhat different, I also added an underground dimension where everything is inversed,
+                  which you can access by going into the Ghost House, along with some other mechanics to make the player experience
+                  better.</p>
+                <p>Currently only supported in MacOS and Windows.</p>
+                <a class="projects-popup-github-link" href="https://github.com/nico-fb/PacMans-Parallel-Odyssey" target=”_blank”>View this project in GitHub</a>
+                <br style="clear: both;"> 
+                <button id="projects-popup-close-button" onclick="toggleProjectsPopup(8)">Close Project</button>
+              </div>
+
+              <!-- Project 7 -->
+              <div class="projects-column">
+                <div class="projects-card" id="projects-card-7" onclick="toggleProjectsPopup(7)">
+                  <h1 class="projects-card-title">Search Engine</h1>
+                  <p class="projects-card-description">Turns a collection of articles into a custom search engine</p>
+                </div>
+              </div>
+              <div class="projects-popup">
+                <!-- content of popup -->
+                <img id="projects-popup-close-img" src="images/close-button.png" alt="Close Button" onclick="toggleProjectsPopup(7)">
+                <h1>Search Engine</h1>
+                <h2>Turns a collection of articles into a custom search engine</h2>
+                <img src="images/projects/7/1.png" alt="Example 1" class="projects-popup-example-images">
+                <p>The custom search engine works by first processing the wiki file. The collection of articles/pages are 
+                  in an xml file, with each page having a title, id, and text. All the words in the title and text are then
+                  stripped to the root word and then used to populate various data structures that are then used for determining
+                  importance.</p>
+                <p>Using a combination of word frequeny in each page and the entire wiki, it calculates the importance 
+                  of each term in each page with the Term Frequency - Inverse Document Frequency (tf-idf) algorithm. 
+                  It then also sees how many times a page is linked to/from in the wiki, and uses a PageRank algorithm 
+                  to determine how authoritative a page is. It then combines both of these importance values to determine
+                  how relevant a document is to the wiki.</p>
+                <p>To complete the search engine, a querier is used to process search queries, score documents against 
+                  queries based on the term relevance and PageRank, and then return the 10 documents with the highest scores.</p>
+                <p>Above is an example of search results for some terms in a small wiki used for testing.</p>
+                <h4 class="projects-popup-github-link">This was a school project, so I am unable to publicly share the code. Repository only available upon request</h4>
+                <br style="clear: both;"> 
+                <button id="projects-popup-close-button" onclick="toggleProjectsPopup(7)">Close Project</button>
+              </div>
+
+              <!-- Project 6 -->
+              <div class="projects-column">
+                <div class="projects-card" id="projects-card-6" onclick="toggleProjectsPopup(6)">
+                  <h1 class="projects-card-title">Seamcarve</h1>
+                  <p class="projects-card-description">Resizes images without losing meaningful content</p>
+                </div>
+              </div>
+              <div class="projects-popup">
+                <!-- content of popup -->
+                <img id="projects-popup-close-img" src="images/close-button.png" alt="Close Button" onclick="toggleProjectsPopup(6)">
+                <h1>Seamcarve</h1>
+                <h2>Resizes images without losing meaningful content</h2>
+                <img src="images/projects/6/0.png" alt="Example 1" class="projects-popup-example-images">
+                <img src="images/projects/6/1.png" alt="Example 2" class="projects-popup-example-images">
+                <img src="images/projects/6/2.png" alt="Example 3" class="projects-popup-example-images" style="width: 75%">
+                <p>Seamcarve works by turning an image into an array of rgb values, and then finds which pixels have the
+                  least difference in rgb between its neighbors. After doing this, using a technique called dynamic programming,
+                  it starts finding seams spanning the entire image that would affect the image the least if they were to be 
+                  removed. These seams are the ones highlited in red in the above example images. The number of seams removed are
+                  specified by the user to resize the image to the desired size.</p>
+                <p>The final image shows the results of this content-aware image resizing.</p>
+                <h4 class="projects-popup-github-link">This was a school project, so I am unable to publicly share the code. Repository only available upon request</h4>
+                <br style="clear: both;"> 
+                <button id="projects-popup-close-button" onclick="toggleProjectsPopup(6)">Close Project</button>
+              </div>  
+
+              <!-- Project 5 -->
+              <div class="projects-column">
+                <div class="projects-card" id="projects-card-5" onclick="toggleProjectsPopup(5)">
+                  <h1 class="projects-card-title">Personal Website</h1>
+                  <p class="projects-card-description">Website portfolio to show my skills, projects, and experience</p>
+                </div>
+              </div>
+              <div class="projects-popup">
+                <!-- content of popup -->
+                <img id="projects-popup-close-img" src="images/close-button.png" alt="Close Button" onclick="toggleProjectsPopup(5)">
+                <h1>Personal Website</h1>
+                <h2>Website portfolio to show my skills, projects, and experience</h2>
+                <img src="images/projects/5/1.png" alt="Example 1" class="projects-popup-example-images">
+                <p>This is pretty simple, you're looking at it right now</p>
+                <a class="projects-popup-github-link" href="https://github.com/nico-fb/nico-fb.github.io" target=”_blank”>View this project in GitHub</a>
+                <br style="clear: both;"> 
+                <button id="projects-popup-close-button" onclick="toggleProjectsPopup(5)">Close Project</button>
+              </div>
+              
+              <!-- Project 4 -->
+              <div class="projects-column">
+                <div class="projects-card" id="projects-card-4" onclick="toggleProjectsPopup(4)">
+                  <h1 class="projects-card-title">Travel Planner</h1>
+                  <p class="projects-card-description">Finds the best travel route based on your needs</p>
+                </div>
+              </div>
+              <div class="projects-popup">
+                <!-- content of popup -->
+                <img id="projects-popup-close-img" src="images/close-button.png" alt="Close Button" onclick="toggleProjectsPopup(4)">
+                <h1>Travel Planner</h1>
+                <h2>Finds the best travel route based on your needs</h2>
+                <img src="images/projects/4/1.png" alt="Example 1" class="projects-popup-example-images">
+                <img src="images/projects/4/2.png" alt="Example 2" class="projects-popup-example-images">
+                <p>Travel Planner uses Breadth First Search (BFS) and Dijkstra algorithms to calculate what travel route best suites your needs,
+                  based on origin, destination, and whether you want the cheapest, fastest, or most direct route.</p>
+                <p>It uses a command line interface as its UI, with 4 commands: load, cheap, fast, direct. To use Travel
+                  Planner, you must first 'load' the graph by feeding it 2 csv files with city names and transport
+                  options. It uses these files to populate the graph.</p>
+                <p>After loading the graph, the user can pick whether they want the cheapest, fastest, or most direct
+                  route, as well as the origin and destination. The 'cheap' command uses the Dijkstra algorithm with 
+                  the price as the weight. The 'fast' command uses the Dijkstra algorithm with time as the weight. 
+                  The 'direct' command uses the BFS algorithm. Some examples are shown in the images above.</p>
+                <h4 class="projects-popup-github-link">This was a school project, so I am unable to publicly share the code. Repository only available upon request</h4>
+                <br style="clear: both;"> 
+                <button id="projects-popup-close-button" onclick="toggleProjectsPopup(4)">Close Project</button>
+              </div>  
+              
+              <!-- Project 3 -->
                 <div class="projects-column">
-                  <div class="projects-card">
-                    <h1 class="projects-card-title">Prj 1</h1>
-                    <p class="projects-card-description">description</p>
-                    <div class="popup?">
-                        <!-- content of popup -->
-                    </div>
+                  <div class="projects-card" id="projects-card-3" onclick="toggleProjectsPopup(3)">
+                    <h1 class="projects-card-title">AI Othello</h1>
+                    <p class="projects-card-description">Othello multiplayer game with computer players</p>
                   </div>
                 </div>
+                <div class="projects-popup">
+                  <!-- content of popup -->
+                  <img id="projects-popup-close-img" src="images/close-button.png" alt="Close Button" onclick="toggleProjectsPopup(3)">
+                  <h1>AI Othello</h1>
+                  <h2>Othello multiplayer game with computer players</h2>
+                  <img src="images/projects/3/1.png" alt="Example 1" class="projects-popup-example-images">
+                  <img src="images/projects/3/2.png" alt="Example 2" class="projects-popup-example-images">
+                  <p>Local multiplayer game of Othello that has human/human, human/computer, and computer/computer compatibility.</p>
+                  <p>This project uses a MiniMax algorithm that evaluates the results of all possible moves with board weights and 
+                    possible score. There are 3 computer levels, with a level-n computer looking n-moves deep before making the 
+                    best move</p>
+                  <p>The computer player uses a custom tree-like data structure that contains the current move it's evaluating,
+                    the score of that move, and a list of all possible moves that the other player could make after playing
+                    that move. After populating the data, with the height of the tree being the computer level, it finds which move
+                    would result in the best score/worst opponent score, and then plays it.</p>
+                  <h4 class="projects-popup-github-link">This was a school project, so I am unable to publicly share the code. Repository only available upon request</h4>
+                  <br style="clear: both;"> 
+                  <button id="projects-popup-close-button" onclick="toggleProjectsPopup(3)">Close Project</button>
+                </div>
 
+                <!-- Project 2 -->
                 <div class="projects-column">
-                    <div class="projects-card">
-                      <h1 class="projects-card-title">Prj 2</h1>
-                      <p class="projects-card-description">description</p>
-                      <div class="popup?">
-                          <!-- content of popup -->
-                      </div>
-                    </div>
+                  <div class="projects-card" id="projects-card-2" onclick="toggleProjectsPopup(2)">
+                    <h1 class="projects-card-title">ML Decision Tree</h1>
+                    <p class="projects-card-description">Predicts object attributes based on previous data</p>
                   </div>
+                </div>
+                <div class="projects-popup">
+                  <!-- content of popup -->
+                  <img id="projects-popup-close-img" src="images/close-button.png" alt="Close Button" onclick="toggleProjectsPopup(2)">
+                  <h1>ML Decision Tree</h1>
+                  <h2>Predicts object attributes based on previous data</h2>
+                  <img src="images/projects/2/1.png" alt="Example 1" class="projects-popup-example-images">
+                  <img src="images/projects/2/2.png" alt="Example 2" class="projects-popup-example-images">
+                  <p>ML Decision Tree uses a basic Machine Learning model to receive training data and later predict 
+                    a target attribute by building a tree-like stucture to split on different atrributes to 
+                    eventually arrive at its decision.</p>
+                  <p>The images above show an example of this process, where given a dataset of fruits/vegetables, it uses 
+                    attributes such as color, protein, and calories to predict whether the food is a fruit or vegetable.</p>
+                  <p>After parsing a csv file with the training data on it, the model randomly selects different attributes 
+                    to 'split' on, which then adds a node to the tree, and can either end with a leaf or keep branching 
+                    out on more attributes. Running this model on various training sets averaged over 95% accuracy on 
+                    training data and over 75% accuracy on testing data, with some of the larger datasets reaching almost 
+                    90% accuracy on testing data.</p>
+                  <h4 class="projects-popup-github-link">This was a school project, so I am unable to publicly share the code. Portfolio only available upon request</h4>
+                  <br style="clear: both;"> 
+                  <button id="projects-popup-close-button" onclick="toggleProjectsPopup(2)">Close Project</button>
+                </div>
 
-                  <div class="projects-column">
-                    <div class="projects-card">
-                      <h1 class="projects-card-title">Prj 3</h1>
-                      <p class="projects-card-description">description</p>
-                      <div class="popup?">
-                          <!-- content of popup -->
-                      </div>
-                    </div>
+                <!-- Project 1 -->
+                <div class="projects-column">
+                  <div class="projects-card" id="projects-card-1" onclick="toggleProjectsPopup(1)">
+                    <h1 class="projects-card-title">Graphwar Bot</h1>
+                    <p class="projects-card-description">Writes better equations to win at Graphwar</p>
                   </div>
-
+                </div>
+                <div class="projects-popup">
+                  <!-- content of popup -->
+                  <img id="projects-popup-close-img" src="images/close-button.png" alt="Close Button" onclick="toggleProjectsPopup(1)">
+                  <h1>Graphwar Bot</h1>
+                  <h2>Writes better equations to win at Graphwar</h2>
+                  <img src="images/projects/1/1.png" alt="Example 1" class="projects-popup-example-images">
+                  <img src="images/projects/1/2.png" alt="Example 2" class="projects-popup-example-images">
+                  <p>This tool outputs the equation for a graph that will help you win in the game Graphwar. 
+                    The equation works by stringing together a lot of equations of the type (_)/(1+e^(-100*(x+_))) 
+                    to essentially make a graph that can move precisely through the coordinate plane.</p>
+                  <a class="projects-popup-github-link" href="https://github.com/nico-fb/Graphwar-Bot" target=”_blank”>View this project in GitHub</a>
+                  <br style="clear: both;"> 
+                  <button id="projects-popup-close-button" onclick="toggleProjectsPopup(1)">Close Project</button>
+                </div>
+                
             </div>
+
         </article>
 
-        <section>
-            <h1>nico</h1>
+        <!-- Experience section -->
+        <article class="articles" id="experience">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione perferendis nam! Impedit, omnis iusto? Vel soluta repellat eius rerum assumenda modi illo tempora quae inventore delectus at sit, quisquam aut placeat consequuntur ipsum iusto mollitia. Velit odio vel, molestias consequatur totam accusamus sit neque est exercitationem architecto itaque facilis iste perspiciatis praesentium dolores facere similique sequi voluptates, provident eligendi. Vero sed amet exercitationem. Consequuntur, incidunt architecto tempore expedita ut repellat sit corporis, deleniti fugit reiciendis dignissimos facere blanditiis ad accusantium est provident saepe aperiam! Quam rem deserunt, ratione nihil, quibusdam, provident quo dicta praesentium rerum doloremque vel voluptas laborum. Eaque voluptatibus consequatur maiores laborum repellat delectus amet maxime voluptas, dignissimos sequi earum nam officiis vel qui error deleniti neque excepturi ex magnam, aspernatur veniam esse doloremque corrupti! Odio, eos illo? Quisquam illum eveniet assumenda, tempora non et error laborum impedit quasi omnis ratione maxime voluptatem velit tenetur accusantium odit dolore vitae totam veniam. Suscipit, quis. Enim quasi eveniet aliquam corporis commodi, odio aut officiis exercitationem accusamus, placeat ad, voluptates sapiente! Tenetur porro accusantium eos omnis quasi officiis odio non culpa ipsum vitae, tempore natus voluptatem aliquid voluptatibus officia excepturi aut consequuntur ipsam repellendus. Doloribus non harum unde laboriosam vitae.</p>
+          <h1 class="experience-title">Experience</h1>
 
-            <a href="https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/62455-shout-factory1-869b74b647b88045caac956956bd1ff8.jpg"
-            target="_blank">Click me for virus</a>
-            <br>
-            
-            <button id="boom">BOOM</button>
-            <br><br><br>
+          <div class="experience-div">
+            <div class="experience-div-vert-line">
+              <div class="experience-div-vert-line-center-shape"></div>
+            </div>
+            <div class="experience-div-content">
+              <h2>AI Development Intern @ Moderately Media LLC</h1>
+              <h3>May 2023 - Present</h3>
+              <p>I am currently working closely with other software developers in a collaborative environment to develop, prototype
+                and release cutting-edge AI technologies. My contributions so far include debugging and finalizing a website/Twitter
+                blog that scrapes RSS feeds and summarizes government news from various sources, working with Python libraries such as 
+                Pandas and Requests, and APIs such as Tweepy, OpenAI, Ujeebu, and TLDRThis. I am also working on a Flutter app that helps generate, rate, and combine article headlines until clients are happy with them.</p>
+            </div>
+            <div style="clear: both"></div>
+          </div>
 
-            <form>
-                <label for="name">Name</label>
-                <input type="text" placeholder="?">
-            </form>
-        </section>
+          <div class="experience-div">
+            <div class="experience-div-vert-line">
+              <div class="experience-div-vert-line-center-shape"></div>
+            </div>
+            <div class="experience-div-content">
+              <h2>Test Writer @ Florida Association of Mu Alpha Theta</h1>
+              <h3>Summer 2022</h3>
+              <p>In charge of writing the Statistics Team round and solutions for the 2024 Florida Association of Mu Alpha Theta 
+                States convention. I was confidently able to do this after helping my team place 1st at every Statistics competition in 2021, and 2nd individually at the States convention.</p>
+            </div>
+            <div style="clear: both"></div>
+          </div>
+
+          <div class="experience-div">
+            <div class="experience-div-vert-line">
+              <div class="experience-div-vert-line-center-shape"></div>
+            </div>
+            <div class="experience-div-content">
+              <h2>Student Teacher @ American Heritage School</h1>
+              <h3>2019-2022</h3>
+              <p>I created, organized, and taught lessons to Mu Alpha Theta students in grades 4-6 at my school to prepare them for 
+                math competitions throughout the year. Later continued building and teaching curriculum catered specifically to 
+                Statistics students, who placed in the top 2 teams of the state consistently throughout the year.</p>
+            </div>
+            <div style="clear: both"></div>
+          </div>
+
+        </article>
+
+        <!-- Contact section -->
+        <article class="articles" id="contact">
+
+          <h1 class="contact-title">Get in Touch</h1>
+          <p>Feel free to contact me below.</p>
+          <p id="contact-final-p">I'm always happy to discuss projects, business opportunities, or just chat in general.</p>
+
+          <a class="contact-icon-container" href="mailto:nicofb31@gmail.com">
+            <img class="contact-icon" src="images/contact-mail.png" alt="LinkedIn"></a>
+          <a class="contact-icon-container" href="https://www.linkedin.com/in/nicofb/" target=”_blank”>
+            <img class="contact-icon" src="images/contact-linkedin.png" alt="LinkedIn"></a>
+
+        </article>
+
+        <footer class="articles" id="footer">
+          <p>&copy; 2023 Nicolas Fernandez Baigun</p>
+        </footer>
+
     </body>
 </html>
