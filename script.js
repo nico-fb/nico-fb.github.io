@@ -52,3 +52,4 @@
             document.getElementsByClassName("body")[0].classList.toggle("open-popup-body");
         }
     }
+
