@@ -22,6 +22,12 @@ html{
     scroll-behavior: smooth;
 }
 
+@media only screen and (max-device-width: 1000px) {
+    h1{
+        font-size: 36px;
+    }
+}
+
 
 colors{
     color: #000;
@@ -131,16 +137,9 @@ header {
     height: 100vh;
     color: #fff;
     text-align: left;
-    padding: calc(10% + 100px) 10%;
     padding: calc(20vh + 5%) 10%;
     background: linear-gradient(#000000a0, #00000010), url(/images/background.png);
     background-size: 750px;
-}
-
-@media only screen and (max-device-width: 1000px) {
-    #header {
-        height: 100%;
-    }
 }
 
 #header h1{
@@ -212,6 +211,24 @@ header {
       -webkit-transform: translateY(-5px);
       -ms-transform: translateY(-5px);
       transform: translateY(-5px);
+    }
+}
+
+@media only screen and (max-device-width: 1000px) {
+    #header {
+        height: 100%;
+        padding: 400px 100px;
+    }
+    #header h1{
+        font-size: 100px;
+        margin-bottom: 20px;
+    }
+    #header p{
+        font-size: 40px;
+    }
+    .scroll-down {
+        bottom: auto;
+        margin-top: 300px;
     }
 }
 
@@ -339,6 +356,13 @@ header {
 
 .skills-icon:hover{
     transform: scale(1.1);
+}
+
+@media only screen and (max-device-width: 1000px) {
+    .skills-icon{
+        width: 80px;
+        margin: 15px;
+    }
 }
 
 
@@ -519,6 +543,12 @@ header {
       width: 100%;
       display: block;
     }
+}
+@media only screen and (max-device-width: 1000px) {
+    .projects-column {
+        width: 100%;
+        display: block;
+      }
 }
 
 /* Images for project card backgrounds */
