@@ -128,7 +128,6 @@ header {
 /* Header styling */
 
 #header{
-    /* height: 100%; */
     height: 100vh;
     color: #fff;
     text-align: left;
@@ -136,6 +135,12 @@ header {
     padding: calc(20vh + 5%) 10%;
     background: linear-gradient(#000000a0, #00000010), url(/images/background.png);
     background-size: 750px;
+}
+
+@media only screen and (max-device-width: 1000px) {
+    #header {
+        height: 100%;
+    }
 }
 
 #header h1{
