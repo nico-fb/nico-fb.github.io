@@ -53,6 +53,47 @@
 
             <div class="projects-row">
 
+               <!-- Project 9 -->
+               <div class="projects-column">
+                <div class="projects-card" id="projects-card-9" onclick="toggleProjectsPopup(9)">
+                  <h1 class="projects-card-title">CAB Available Seats</h1>
+                </div>
+              </div>
+              <div class="projects-popup">
+                <!-- content of popup -->
+                <img id="projects-popup-close-img" src="images/close-button.png" alt="Close Button" onclick="toggleProjectsPopup(9)">
+                <h1>CAB Available Seats</h1>
+                <h2>Automatically alerts you when there are seats open in your desired courses on CAB</h2>
+
+                <div class="tech-used-project">
+                  <span class="tech-used-card">Python</span>
+                  <span class="tech-used-card">Docker</span>
+                  <span class="tech-used-card">Selenium</span>
+                  <span class="tech-used-card">Psutil</span>
+                  <span class="tech-used-card">VSCode</span>
+                  <span class="tech-used-card">GitHub</span>
+                </div>
+
+                <video controls name="Demo 1" class="projects-popup-example-videos">
+                  <source src="images/projects/9/demo1.mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <video controls name="Demo 2" class="projects-popup-example-videos">
+                  <source src="images/projects/9/demo2.mp4">
+                  Your browser does not support the video tag.
+                </video>
+
+                <p>I wrote this program to help me with registration for future classes I want to take, since some of the classes I wanted to enroll in have very limited spots, and I wasn't able to register for them in early registration.</p>
+                <p>The script uses Python with libraries like Selenium to web scrape the information from the site, Psutil to send me an email when there are seats available, and Argparse to interpret the command from the terminal. I also used Docker to be able to run the script locally on my computer in the background without interfering with other work.</p>
+                <p>The script can run in 2 ways: through a web driver or through Docker. Either way, it works similarly. It first opens Chrome, navigates to the course registration website, and inputs the course information from the command line into the search boxes. It then extracts the seat availability from the course and stores it locally. It continues to do this for all the courses in the command. After this, it checks to see if the numbers are greater than 0. If they are, it sends me an email notifying me that there are seats available for that course and removes the course from the list of courses to check. If not, it'll wait 5 minutes, and run the script again with the updated course list. It will continue to do this until all the courses have seats available or I manually stop it.</p>
+                <p>Demos of how it works are shown above.</p>
+                <p>Making the repository public would defeat its purpose, so at this time, it is private.</p>
+
+                <h4 class="projects-popup-github-link">Repository only available upon request</h4>
+                <br style="clear: both;"> 
+                <button id="projects-popup-close-button" onclick="toggleProjectsPopup(9)">Close Project</button>
+              </div>
+
               <!-- Project 8 -->
               <div class="projects-column">
                 <div class="projects-card" id="projects-card-8" onclick="toggleProjectsPopup(8)">
@@ -73,8 +114,7 @@
 
                 <img src="images/projects/8/1.png" alt="Example 1" class="projects-popup-example-images">
                 <img src="images/projects/8/2.png" alt="Example 2" class="projects-popup-example-images">
-                <p>I made this game in Unity. It is essentially the original PacMan game, but you are playing it in 3D from PacMan's Point of View. To make it unique, I also added an underground dimension where everything is inversed, which you can access by going into the Ghost House, along with some other mechanics to make the player experience better.
-                </p>
+                <p>I made this game in Unity. It is essentially the original PacMan game, but you are playing it in 3D from PacMan's Point of View. To make it unique, I also added an underground dimension where everything is inversed, which you can access by going into the Ghost House, along with some other mechanics to make the player experience better.</p>
                 <p>Currently only supported in MacOS and Windows.</p>
                 <a class="projects-popup-github-link" href="https://github.com/nico-fb/PacMans-Parallel-Odyssey" target=”_blank”>View this project in GitHub</a>
                 <br style="clear: both;"> 
@@ -303,6 +343,7 @@
             <img class="skills-icon" src="images/icons/tech/github.png" alt="GitHub" title="GitHub">
             <img class="skills-icon" src="images/icons/tech/api.png" alt="APIs" title="APIs">
             <img class="skills-icon" src="images/icons/tech/unity.png" alt="Unity" title="Unity">
+            <img class="skills-icon" src="images/icons/tech/docker.png" alt="Docker" title="Docker">
             <img class="skills-icon" src="images/icons/tech/flutter.png" alt="Flutter" title="Flutter">
             <img class="skills-icon" src="images/icons/tech/gitpod.png" alt="GitPod" title="GitPod">
             <img class="skills-icon" src="images/icons/tech/latex.png" alt="LaTeX" title="LaTeX">

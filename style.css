@@ -475,13 +475,20 @@ header {
 }
 
 .projects-popup h2{
+    margin: 0 15px;
     font-size: 15px;
     font-weight: normal;
     padding-bottom: 15px;
 }
 
-
 .projects-popup-example-images{
+    width: 80%;
+    border-radius: 1px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.projects-popup-example-videos{
     width: 80%;
     border-radius: 1px;
     margin: 10px;
@@ -599,6 +606,12 @@ header {
     background: linear-gradient(#f5f1e3af, #f5f1e3af), 
                 url("images/projects/8/0.png") no-repeat center;
     background-size: 106%;
+}
+
+#projects-card-9{
+    background: linear-gradient(#f5f1e3af, #f5f1e3af), 
+                url("images/projects/9/0.png") no-repeat center;
+    background-size: 100%;
 }
 
 
