@@ -614,6 +614,12 @@ header {
     background-size: 100%;
 }
 
+#projects-card-10{
+    background: linear-gradient(#f5f1e3af, #f5f1e3af), 
+                url("images/projects/10/0.png") no-repeat top;
+    background-size: 100%;
+}
+
 
 /* Experience styling */
 
