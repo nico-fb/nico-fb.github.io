@@ -488,6 +488,13 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
+.projects-popup-example-images-small{
+    width: 50%;
+    border-radius: 1px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
 .projects-popup-example-videos{
     width: 80%;
     border-radius: 1px;
